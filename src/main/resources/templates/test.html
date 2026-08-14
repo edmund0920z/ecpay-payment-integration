@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>綠界金流測試</title>
+</head>
+<body>
+    <h2>測試綠界金流結帳</h2>
+    <form action="http://localhost:8080/api/v1/payment/checkout" method="POST">
+        <p>商品名稱:<input type="text" name="itemName" value="測試商品A"></p>
+        <p>交易金額:<input type="number" name="totalAmount" value="100"></p>
+        <button type="submit">送出並跳轉至綠界</button>
+    </form>
+</body>
+</html>
