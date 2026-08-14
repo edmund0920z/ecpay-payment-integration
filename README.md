@@ -33,7 +33,6 @@
 * **HTTP 200 OK：成功接收金流 Callback，回應 1|OK 響應訊息。
 * **冪等性防護 (Idempotency)：重複發送相同訂單的 Callback 時，系統自動識別已處理狀態（PAID），跳過寫入並直接回應 1|OK，防止重複處理。
 * **資料庫驗證：交易成功後，trade_status 精準更新為 PAID，並寫入 ecpay_trade_no 與 payment_date。
-* **ade_no 與 payment_date。
 
 ---
 
