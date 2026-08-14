@@ -37,7 +37,7 @@
 
 | Postman Callback 驗證 | SSMS 資料庫最終狀態 |
 | :---: | :---: |
-| ![Postman Callback](docs/postman-callback-result.png) | ![SSMS](docs/ssms-db-result.png) |
+| ![Postman Callback](docs/postman-callback-result.png) | ![SSMS](docs/db-order-paid-result.png) |
 
 ---
 
