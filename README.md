@@ -35,6 +35,10 @@
 * **冪等性防護** (Idempotency)：重複發送相同訂單的 Callback 時，系統自動識別已處理狀態（PAID），跳過寫入並直接回應 1|OK，防止重複處理。
 * **資料庫驗證**：交易成功後，trade_status 精準更新為 PAID，並寫入 ecpay_trade_no 與 payment_date。
 
+| Postman Callback 驗證 | SSMS 資料庫最終狀態 |
+| :---: | :---: |
+| ![Postman Callback](docs/postman-callback-result.png) | ![SSMS](docs/ssms-db-result.png) |
+
 ---
 
 ## 專案架構亮點
